@@ -3,8 +3,5 @@ title: 🪴 GAIA Documentation
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
-
-1. We must construct additional pylons! [[content/notes/Test]]
-
-
+1. [Energy Consumption](content/documentation/energy/Energy Consumption)
+2. We must construct additional Pylons! [Test](content/notes/Test.md)
