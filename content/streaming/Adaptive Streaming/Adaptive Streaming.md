@@ -39,7 +39,7 @@ A simple example of on-demand adaptive streaming is shown in
 > The audio gets muted in the process (shown as the dashed line). 
 > At some time step the user starts to play the content again, this time with French audio. Then the device starts streaming the content with the highest video and audio quality again.
 
-# Benefits
+## Benefits
 
 Video content is an ever-growing channel and thus, ensuring the quality of video playback is an important and demanding task.
 
