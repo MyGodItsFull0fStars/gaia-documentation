@@ -8,6 +8,9 @@ weight: -2
 If you'd like to preview what your Quartz site looks like before deploying it to the internet, the following
 instructions guide you through installing the proper dependencies to run it locally.
 
+[[content/notes/Test]]
+
+
 
 ## Install `hugo-obsidian`
 This step will generate the list of backlinks for Hugo to parse. Ensure you have [Go](https://golang.org/doc/install) (>= 1.16) installed.
