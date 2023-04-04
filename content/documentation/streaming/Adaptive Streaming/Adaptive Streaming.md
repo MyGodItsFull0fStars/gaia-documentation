@@ -1,7 +1,6 @@
 
 ---
-title: Adaptive Streaming
-enableToc: true
+title: "Adaptive Streaming"
 ---
 
 ## Overview
