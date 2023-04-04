@@ -7,7 +7,7 @@ title: "Adaptive Streaming"
 
 Adaptive [Streaming](documentation/streaming/Streaming.md) is a method for improving streaming over HTTP networks.
 
-Adaptive streaming starts at the [Encoding](content/documentation/streaming/Encoding.md) stage.
+Adaptive streaming starts at the [Encoding](documentation/streaming/Encoding.md) stage.
 For adaptive streaming to work, different video files with different bitrates are created.
 
 After the encoding process, the video is seqmented into smaller chunks that are each a few seconds in length. 
@@ -20,11 +20,11 @@ A simple example of on-demand adaptive streaming is shown in
 
 > [!example] Example of On-Demand Adaptive Streaming
 >  The multimedia content consists of video and audio components.
->  The video component is encoded in three different [[content/documentation/streaming/Bitrate]]s and also contains I-frames in low frame rate in the *trick mode*.
+>  The video component is encoded in three different [bitrates](documentation/streaming/Bitrate.md) and also contains I-frames in low frame rate in the *trick mode*.
 > The corresponding audio content is available in two languages, english and french.
 > Each of them are encoded in two qualities.
+> ![example-on-demand-adaptive-streaming](documentation/figures/example-on-demand-adaptive-streaming.png)
 > 
-> [example-on-demand-adaptive-streaming](content/figures/example-on-demand-adaptive-streaming.png)
 > 
 > In this example, a device first requests the content seqments in the highest quality of the bitstream and English audio at 128K AAC (1).
 > After streaming the first segment and monitoring the effective network bandwidth, the device calculates that the actual available bandwidth is lower than the required 5Mbits/sec.
