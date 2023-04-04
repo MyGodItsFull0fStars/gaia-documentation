@@ -13,6 +13,7 @@ For adaptive streaming to work, different video files with different bitrates ar
 After the encoding process, the video is seqmented into smaller chunks that are each a few seconds in length. 
 Most streaming setups then send a series of sequences to the client, rather than an entire video file at once.
 This process is important in order to be able to play a video content without having to wait for the entire video to be finished.
+Segments are important for adaptive streaming because after the end of a video segment, an adjustment process is triggered, that is triggered if the connection is not able to download the video fast enough without buffering, and switeches to smaller file segments.
 
 ## Example
 
@@ -23,9 +24,10 @@ A simple example of on-demand adaptive streaming is shown in
 >  The video component is encoded in three different [bitrates](documentation/streaming/Bitrate.md) and also contains I-frames in low frame rate in the *trick mode*.
 > The corresponding audio content is available in two languages, english and french.
 > Each of them are encoded in two qualities.
-> ![example-on-demand-adaptive-streaming](documentation/figures/example-on-demand-adaptive-streaming.png)
-> 
+>  
 > ![[documentation/figures/example-on-demand-adaptive-streaming.png]]
+>  ![[./figures/example-on-demand-adaptive-streaming.png]]
+> ![[content/documentation/figures/example-on-demand-adaptive-streaming.png]]
 > 
 > 
 > In this example, a device first requests the content seqments in the highest quality of the bitstream and English audio at 128K AAC (1).
