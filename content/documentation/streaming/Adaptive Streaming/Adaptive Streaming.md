@@ -7,7 +7,7 @@ title: "Adaptive Streaming"
 
 Adaptive [Streaming](documentation/streaming/Streaming.md) is a method for improving streaming over HTTP networks.
 
-Adaptive streaming starts at the [Encoding](content/documentation/encoding/Encoding.md) stage.
+Adaptive streaming starts at the [Encoding](content/documentation/streaming/Encoding.md) stage.
 For adaptive streaming to work, different video files with different bitrates are created.
 
 After the encoding process, the video is seqmented into smaller chunks that are each a few seconds in length. 
