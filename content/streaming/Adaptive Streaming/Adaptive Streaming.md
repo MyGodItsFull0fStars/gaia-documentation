@@ -24,11 +24,6 @@ A simple example of on-demand adaptive streaming is shown in
 >  The video component is encoded in three different [bitrates](content/streaming/Bitrate.md) and also contains I-frames in low frame rate in the *trick mode*.
 > The corresponding audio content is available in two languages, english and french.
 > Each of them are encoded in two qualities.
->  
-> ![[content/figures/example-on-demand-adaptive-streaming.png]]
-> 
-> ![[content/figures/example-on-demand-adaptive-streaming.png]]
-> 
 > 
 > In this example, a device first requests the content seqments in the highest quality of the bitstream and English audio at 128K AAC (1).
 > After streaming the first segment and monitoring the effective network bandwidth, the device calculates that the actual available bandwidth is lower than the required 5Mbits/sec.
@@ -40,3 +35,6 @@ A simple example of on-demand adaptive streaming is shown in
 > The audio gets muted in the process (shown as the dashed line). 
 > At some time step the user starts to play the content again, this time with French audio. Then the device starts streaming the content with the highest video and audio quality again.
 
+ ![[content/figures/example-on-demand-adaptive-streaming.png]]
+
+![[content/figures/example-on-demand-adaptive-streaming.png]]
