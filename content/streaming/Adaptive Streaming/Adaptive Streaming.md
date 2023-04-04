@@ -20,8 +20,9 @@ Segments are important for adaptive streaming because after the end of a video s
 A simple example of on-demand adaptive streaming is shown in 
 
 > [!example] Example of On-Demand Adaptive Streaming
->  The multimedia content consists of video and audio components.
->  The video component is encoded in three different [bitrates](content/streaming/Bitrate.md) and also contains I-frames in low frame rate in the *trick mode*.
+> 
+> The multimedia content consists of video and audio components.
+> The video component is encoded in three different [bitrates](content/streaming/Bitrate.md) and also contains I-frames in low frame rate in the *trick mode*.
 > The corresponding audio content is available in two languages, english and french.
 > Each of them are encoded in two qualities.
 > ![example-on-demand-adaptive-streaming](figures/example-on-demand-adaptive-streaming.png)
