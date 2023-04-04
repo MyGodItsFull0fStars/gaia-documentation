@@ -25,6 +25,8 @@ A simple example of on-demand adaptive streaming is shown in
 > Each of them are encoded in two qualities.
 > ![example-on-demand-adaptive-streaming](documentation/figures/example-on-demand-adaptive-streaming.png)
 > 
+> ![[documentation/figures/example-on-demand-adaptive-streaming.png]]
+> 
 > 
 > In this example, a device first requests the content seqments in the highest quality of the bitstream and English audio at 128K AAC (1).
 > After streaming the first segment and monitoring the effective network bandwidth, the device calculates that the actual available bandwidth is lower than the required 5Mbits/sec.
