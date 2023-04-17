@@ -10,10 +10,10 @@ Adaptive [Streaming](content/gaia/streaming/Streaming.md) is a method for improv
 Adaptive streaming starts at the [Encoding](content/gaia/streaming/Encoding.md) stage.
 For adaptive streaming to work, different video files with different bitrates are created.
 
-After the encoding process, the video is seqmented into smaller chunks that are each a few seconds in length. 
+After the encoding process, the video is segmented into smaller chunks that are each a few seconds in length. 
 Most streaming setups then send a series of sequences to the client, rather than an entire video file at once.
 This process is important in order to be able to play a video content without having to wait for the entire video to be finished.
-Segments are important for adaptive streaming because after the end of a video segment, an adjustment process is triggered, that is triggered if the connection is not able to download the video fast enough without buffering, and switeches to smaller file segments.
+Segments are important for adaptive streaming because after the end of a video segment, an adjustment process is triggered, that is triggered if the connection is not able to download the video fast enough without buffering, and switches to smaller file segments.
 
 ## Example
 
