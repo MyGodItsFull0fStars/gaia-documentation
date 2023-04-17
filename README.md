@@ -2,7 +2,7 @@
 
 Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
 
-1. We must construct additional pylons! [[content/notes/Test]]
+1. We must construct additional pylons! [[content/gaia/notes/Test]]
 
 Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
 
