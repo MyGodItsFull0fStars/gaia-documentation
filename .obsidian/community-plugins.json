@@ -3,5 +3,7 @@
   "obsidian-citation-plugin",
   "note-refactor-obsidian",
   "obsidian-languagetool-plugin",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-completr",
+  "obsidian-latex-suite"
 ]

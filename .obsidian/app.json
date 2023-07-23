@@ -1,7 +1,8 @@
 {
   "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "attachmentFolderPath": "content/figures",
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }

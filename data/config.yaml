@@ -14,12 +14,11 @@ enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/mygoditsfull0fstars/quartz/tree/hugo/content
 search:
-  enableSemanticSearch: True
+  enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  These GitHub pages contain the ongoing documentation of the GAIA project.
 page_title:
   "🪴 GAIA 🏕"
 links:
